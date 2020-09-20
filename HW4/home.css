@@ -1,0 +1,38 @@
+/*Tutorials Point: A website with many CSS propertis
+	https://www.tutorialspoint.com/css/index.htm*/
+body{
+	background-color:#ffffcc
+	}
+h1{
+	font-family:Times New Roman;
+	text-align:center;
+	color:#aa0000;
+	text-decoration:underline;bold;
+	}
+h2{
+	font-family:Arial Narrow;
+	color:#309900;
+	}
+h3{
+	font-family:arial;
+	color:#500000;
+	}
+img{
+	border-color:#309900;
+	opacity:0.7;
+	transition:transform 2s;
+	}
+img:hover{
+	border-color:#993030;
+	opacity:1;
+	transform:scale(1.2);
+	}
+li{
+	font-size:14px;
+	}
+ol{
+	width:750px;
+	}
+p{
+	font-size:18px;
+	}
