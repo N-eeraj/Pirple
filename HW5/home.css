@@ -1,0 +1,92 @@
+/*Tutorials Point: A website with many CSS propertis
+	https://www.tutorialspoint.com/css/index.htm*/
+body{
+	background-color:#ffffcc
+	}
+#main-heading{
+	font-family:Times New Roman;
+	text-align:center;
+	color:#aa0000;
+	text-decoration:underline;bold;
+	margin-bottom:3%;
+	}
+#subHeading{
+	font-family:Arial Narrow;
+	color:#ffffff;
+	width:45%;
+	background-color:#309900;
+	margin:2% 1%;
+	}
+#ingredient-sub{
+	font-family:arial;
+	color:#500000;
+	padding:10px 0 5px 25px;
+	}
+.ingredients,.instruction{
+	background-color:#ffeebb;
+	padding-left:5px;
+	margin-left:30px;
+	}
+.ingredients{
+	padding-top:10px;
+	padding-bottom:20px;
+	margin-top:30px;
+	margin-bottom:30px;
+	}
+.unordered-list ul{
+	color:#500050;
+	}
+.ingredients>.unordered-list>li{
+	list-style-image:url(arrowBlue.jpg);
+	}
+.ingredients>.unordered-list>ul>li{
+	list-style-image:url(arrowRed.jpg);
+	}
+ol li{
+	list-style-type:upper-roman;
+	}
+.ordered-list{
+	color:#a000a0;
+	}
+.spcl{
+	color:#000077;
+	}
+p .spcl{
+	color:#400000;
+	font-weight:bold;
+	}
+hr{
+	margin:50px 0px;
+	}
+p{
+	margin:80px 30px;
+	}
+.italics{
+	font-style:italic;
+	}
+#first{
+	color:#ff0000;
+	font-style:normal;
+	}
+#image{
+	border-color:#309900;
+	opacity:0.7;
+	transition:transform 2s;
+	}
+#image:hover{
+	border-color:#993030;
+	opacity:1;
+	transform:scale(1.2);
+	}
+.last{
+	text-decoration:underline
+	}
+li{
+	font-size:14px;
+	}
+ol{
+	width:750px;
+	}
+p{
+	font-size:18px;
+	}
