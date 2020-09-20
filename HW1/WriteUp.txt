@@ -1,0 +1,23 @@
+So far I have learnt introduction to HTML
+HTML stands for Hyper Text Mark-Up Language
+Doctype (<!DOCTYPE html>) is an "signal to the browser to expect a HTML type  document
+<HTML><Head><body> tags and their closing </HTML></Head></body>tags
+	<HTML></HTML> Contains all the other tags. It can be considered as a "Master Tag"
+	<Head></Head> Contains some tags of the webpage such as Title & Meta tags
+		<Title></Title> Used to give the webpage a name
+		<meta charset='utf-8'> Is used support other languages & symbols
+	<Body></Body> Contains all the contents of the webpage
+		<p></p> used to type in paragraphs in a webpage
+
+Container Tags : Has opening & Closing tag
+Empty Tags     : Has only Opening tag
+
+JS Bin : * A website to learn HTML
+	 * It also lets the user use CSS & JavaScript
+
+<!--'This is a Comment in HTML'-->
+
+There  are 2 types of list in HTML
+	Un-Ordered List : Bullets(Different types are {circle,disc,square})
+	Ordered List	: Numbered(Different types are {1,i,I,a,A})
+Lists can be nested, ie a list can exist within another one
