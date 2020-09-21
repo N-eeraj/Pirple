@@ -1,0 +1,30 @@
+This project gives a brief introduction to the Wizarding world of Harry Potter.
+The project consists of 8 HTML files & 2 CSS files.
+All the pages has the basic tags such as <html>,<head>,<body>,<title>,<meta>,etc.
+CSS files are linked to HTML using a <link> tag.
+
+The main page is home.html & it's CSS file is home.css
+There is an audio file in this web page, it was implemented using the <audio> tag. The main heading is given using a <header> 
+tag and lies between 2 <hr>.Then we get a brief introduction to the books including the author's name which is a in page link using <a>. 
+The paragraph is moved to left using padding-left & colored using background in the CSS.Then we have the plot of the story, 
+the heading uses <h1> tag & the paragraph that follows is colored the same as above one.
+After this there are a few images of the covers of the 7 books of Harry Potter (<img>), these images acts as links to 
+go to the page of the respective boook using <a> tag. The image styling is mentioned in the CSS file, styling 
+includes width, opacity(0.8), padding & transition.The CSS file also adds a hover effect for each of the images, 
+the image/link changes it's size(110%) & opacity(full).
+After a line theres is an image of Hogwarts(The central location of the story) and to it's right there is a section about the 
+author(J.K. Rowling), including a heading in <h1>, image using <img>, <p> contains the info. & a link(<a> tag) with its href value
+being the web address of J.K Rowling's Official website.
+There is an image which is fixed at the bottom right corner of the page(using CSS fixed postion). this image has a low opacity(0.3),
+when the cursor hovers over it, it becomes fully visible and becomes a in page link to take you to the top of the page.
+
+There are 7 other webpages(hp1.html to hp7.html) which all are alike, and since they are 
+structuraly same they are linked to the same CSS file sub.css
+The first element of these pages are a navigation menu, its made using <nav>,<ul> & <li>. Several styling is done before it 
+reaches it's final form. The contents of the navigation menu are Home (home page) & the books other than the book whose page 
+we are viewing the momemnt. Below the navigation menu is the main heading(name of the book) in <header>, followed by a <hr>.
+There 3 contents in these pages; an introduction to the story of the book, an image & a youtube video(trailer of the film 
+adaptation of the book). The styling of these are done in the CSS files so its accessible to all the HTML files. <iframe> tag is
+used to place the youtube video in the page, the contents of the tag including the tag itself is available in the share option of 
+the youtube video as "embed".
+

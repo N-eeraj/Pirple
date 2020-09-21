@@ -1,0 +1,43 @@
+nav ul{
+	list-style-type:none;
+	padding-bottom:30px;
+	}
+nav li{
+	display:inline;
+	float:left;
+	}
+nav a:link,nav a:visited{
+	padding:10px 0;
+	color:#ffffff;
+	display:block;
+	width:180px;
+	background-color:#250000;
+	text-decoration:none;
+	text-align:center;
+	}
+nav a:hover{
+	background-color:#501010;
+	color:#ffffff;
+	}
+header{
+	font-size:60px;
+	text-align:center;
+	font-family:Times New Roman;
+	padding-bottom:20px;
+	}
+body{
+	background:#eedd77;
+	}
+#intro{
+	margin-left:3%;
+	padding:3px 5px;
+	background:#ddcc55;
+	width:75%;
+	}
+#poster{
+	position:absolute;
+	top:200px;
+	right:50px;
+	width:15%;
+	height:65%;
+	}

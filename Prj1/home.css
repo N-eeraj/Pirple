@@ -1,0 +1,67 @@
+#head{
+	font-family:Z003;
+	font-size:60px;
+	color:#ffffff;
+	}
+body{
+	color:#ffffff;
+	background:#000050;
+	}
+.aboutBg{
+	background:rgba(55,185,255,0.7);
+	}
+#intro{
+	padding-left:36%;
+	}
+#plot{
+	width:70%;
+	}
+#books{
+	padding-top:9px;
+	padding-bottom:7px;
+	padding-left:7px;
+	background:rgba(0,0,30,.7);
+	}
+#books img{
+	opacity:0.8;
+	width:13.5%;
+	padding-left:4px;
+	transition:transform 0.5s;
+	}
+#books img:hover{
+	opacity:1;
+	transform:scale(1.1);
+	}
+#hogwarts{
+	float:left;
+	width:55%;
+	height=50%;
+	}
+#Author{
+	position:absolute;
+	top:1200px;
+	right:20px;
+	padding-left:10px;
+	padding-right:10px;
+	max-width:300px;
+	background:rgba(0,0,25,0.7);
+	}
+#aboutAuthor{
+	color:#aaaaff;
+	}
+a:link,a:visited{
+	color:#ffff55;
+	}
+a:hover{
+	color:#aa70cc;
+	}
+footer{
+	position:fixed;
+	top:480px;
+	right:0px;
+	opacity:0.3
+	}
+footer:hover{
+	opacity:1
+	}
+
