@@ -1,0 +1,14 @@
+This is a website project trying to replicate the Apple home page
+
+The 1st section is a navigation bar, its created using <nav>, <ul>, <li> & <a> tags. These are links to different pages of the Apples 
+website. The navigation bar is fixed on the screen (using position:fixed). The contents of the navigation bar glow on hovering, this 
+is done by setting the opacity to 0.8 initially & 1 on hovering. This is followed by a couple of sections a quick covid test & a 
+online shopping sections. All of the link text gets an underline on hovering.
+
+There are 3 full-width links, these links are made using <a> tag and its backround image is set in the CSS file. Each of these 3
+has another link placed within the area. All the conents of the page are responsive, the change after the size of 700px in width. 
+The background images change their size, the most nobale change is in the 1st link (iPhone SE 2020) which changes the background 
+image. This is followed by 6 half-width links, after the screen size hits the 700px width mark the images becomes full sized 
+and gets stack up on top of another resulting in the change of a 3x2 layout to a 6x1.
+
+Then there's a footer section with all the terms & condition.
